@@ -19,6 +19,12 @@ public class ConditionalStatements {
             grade = "D";
         }
         System.out.println("Score is: " + score);
-        System.out.println("GRade is: " + grade);
+        System.out.println("Grade is: " + grade);
+
+        int val1 = 10;
+        int val2 = 20;
+
+        boolean condition = val1 == val2;
+        System.out.println(condition);
     }
 }

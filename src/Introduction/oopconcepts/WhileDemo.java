@@ -7,12 +7,12 @@ public class WhileDemo {
         int i = 10;
 
         while (i < 10) {
-            //System.out.println(i);
+            System.out.println(i);
             i++;
             if (i == 17) {
                 continue;
             }
-            System.out.println("Value of i " + i);
+            System.out.println("Value of i is " + i);
 
         }
 
